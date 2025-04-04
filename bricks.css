@@ -1,0 +1,25 @@
+/*width*/
+::-webkit-scrollbar {
+  width:0px;
+}
+
+/*track*/
+::-webkit-scrollbar-track {
+  background:transparent;
+}
+
+/*thumb*/
+::-webkit-scrollbar-thumb {
+  background:transparent;
+}
+</style>
+
+<style>
+body .swiper-slide.is-photos {
+	display: flex !important;
+}
+.text-slide,
+.text-slide-name,
+.text-slide-job {
+  transition: opacity 0.3s ease-in-out, display 0.3s ease-in-out;
+}
